@@ -11,8 +11,8 @@
 // @homepageURL  https://github.com/vasilywarmare/ChatGPT-Virtualiser-Counter-Export
 // @supportURL   https://github.com/vasilywarmare/ChatGPT-Virtualiser-Counter-Export/issues
 //
-// @updateURL    https://github.com/vasilywarmare/ChatGPT-Virtualiser-Counter-Export/raw/main/ChatGPT-Virtualiser-Counter-Export.user.js
-// @downloadURL  https://github.com/vasilywarmare/ChatGPT-Virtualiser-Counter-Export/raw/main/ChatGPT-Virtualiser-Counter-Export.user.js
+// @updateURL    https://raw.githubusercontent.com/vasilywarmare/ChatGPT-Virtualiser-Counter-Export/main/ChatGPT-Virtualiser-Counter-Export.user.js
+// @downloadURL  https://raw.githubusercontent.com/vasilywarmare/ChatGPT-Virtualiser-Counter-Export/main/ChatGPT-Virtualiser-Counter-Export.user.js
 // ==/UserScript==
 
 "use strict";
@@ -451,6 +451,7 @@ function IsMessageVisible(rect, viewportHeight)
     return rect.bottom > -viewportHeight * State.visibilityBuffer.top &&
            rect.top < viewportHeight * (1 + State.visibilityBuffer.bottom);
 }
+
 
 
 
