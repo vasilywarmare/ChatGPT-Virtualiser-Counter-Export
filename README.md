@@ -12,5 +12,8 @@ A Tampermonkey userscript that adds a virtualiser toggle, message counter, and e
 - Message Counter (tracks token usage)
 - Export button (download chat logs)
 
+## Screenshot
+![Screenshot](Screenshot.png)
+
 ## Support
 For bugs or feature requests, please open an [issue](https://github.com/vasilywarmare/ChatGPT-Virtualiser-Counter-Export/issues).
